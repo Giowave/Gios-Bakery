@@ -1,7 +1,37 @@
-body{
-    background-color: lightgoldenrodyellow;
+body {
+    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFrZXJ5fGVufDB8fDB8fHww);
+    font-family: sans-serif;
   }
-h1, h2, p {
+  
+  
+  
+  h1, h2, p {
     text-align: center;
   }
- 
+  
+  .menu {
+    width: 75%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    max-width: 550px;
+  }
+  
+  h1, h2 {
+    font-family: serif;
+  }
+  
+  .item p {
+    display: inline-block;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%
+  }
